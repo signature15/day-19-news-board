@@ -1,22 +1,22 @@
 /**
- * entry.png - "One Day in World News", Thursday 19 November 2026.
+ * entry.png - a cream newsprint broadsheet covering one single day:
+ * Thursday 19 November 2026, laid out as one 1024x1024 page.
  *
- * The one artifact this program publishes is a 1024x1024 poster drawn as
- * a cream newsprint broadsheet: a single page carrying the whole world's
- * news for Thursday 19 November 2026. At the top, the masthead names the
- * page and a red date tab stamps it with the day. Just below, a
- * day-in-numbers strip boils the news down to its figures - the ICJ's
- * 9-6 genocide vote, Anthropic's $81bn IPO, the M5.7 quake that struck
- * Kumamoto, and UK inflation at 3.6%. The stories then run in three
- * tiers: three hero cards lead (the Shenzhen three-way summit, the ICJ's
- * Myanmar ruling, and Anthropic's Nasdaq debut), five secondary cards
- * follow, and seven tertiary cards round out the middle of the page.
- * Twenty-four region-tagged evening briefs fill the lower sheet, and a
- * date-check footer closes the page, separating Wednesday's carryover
- * from what actually happened on the day.
+ * The sheet opens with a masthead carrying the page's title, stamped
+ * with a red date tab so the day cannot be mistaken for any other.
+ * Directly beneath it runs a day-in-numbers strip: the ICJ's 9-6
+ * genocide vote, Anthropic's $81bn IPO, the M5.7 quake in Kumamoto,
+ * and UK inflation at 3.6%. The news itself then descends in tiers -
+ * three hero cards first (the Shenzhen three-way summit, the ICJ's
+ * Myanmar ruling, Anthropic's Nasdaq debut), then five secondary
+ * cards, then seven tertiary cards. Below them, twenty-four
+ * region-tagged evening briefs sweep the rest of the world, and a
+ * date-check footer at the bottom of the sheet marks where Thursday
+ * truly ends.
  *
- * Running main.ts ships the finished poster: it copies entry.png byte
- * for byte into the output directory. Nothing is rendered at run time.
+ * This program publishes the finished sheet: it copies entry.png,
+ * byte for byte, into the output directory. Nothing is drawn here -
+ * the broadsheet is complete before this script ever runs.
  */
 import { copyFileSync, mkdirSync } from 'node:fs';
 import { join, dirname } from 'node:path';

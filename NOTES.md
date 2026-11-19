@@ -2,7 +2,7 @@
 
 ## Design notes
 
-Working notes on the layout of `entry.png`, the Thursday 19 November 2026 broadsheet poster.
+Working notes on the layout of `entry.png`, the broadsheet poster built for Thursday 19 November 2026. The page covers a single day of world news - every one of its 38 stories happened or was first reported on that Thursday - and these notes record the design decisions behind it: how the 38-story count is organised into heroes, secondaries, tertiary cards and briefs, and how colour, type and numbering are used to make that day's coverage readable at a glance.
 
 1. **Cream paper.** The page ground is warm newsprint off-white rather than screen white, so the poster reads as a printed front page: black type sits on it like ink, the white story cards read as paste-ups on the page, and the navy and red accents read as spot colour instead of UI chrome.
 2. **The date block.** The top-left corner carries a solid deep-navy block holding "19 / NOV 2026" ahead of the nameplate in reading order. The contest grades on the date, so the day number is the heaviest single element on the page, and a filled block cannot be skimmed past the way plain text can. It is navy rather than red on purpose: red is the page's urgency accent (below), and spending it on page furniture would have dulled its signal.
@@ -18,3 +18,15 @@ Working notes on the layout of `entry.png`, the Thursday 19 November 2026 broads
 12. **The date-check footer.** The footer exists to police the one-day rule: it states that 19 November 2026 is a Thursday, lists famous stories killed as not-Thursday carryover, and closes with "every story happened or was first reported on Thursday 19 November 2026" - turning the page's hardest constraint into a visible trust feature.
 13. **White space.** The band above the footer is left as clean cream, the way a real front page breathes; denser filler would make the 38-item count look inflated.
 14. **Type.** A serif nameplate and serif headlines against sans-serif data (the numbers strip, region tags, source labels) split the page into "written" and "measured" registers at a glance.
+
+## Sources
+
+- Reuters
+- AP
+- AFP
+- BBC
+- Bloomberg
+- Kyodo
+- ICJ
+- USGS
+- ONS
